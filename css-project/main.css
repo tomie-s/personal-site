@@ -1,0 +1,218 @@
+/***** BASE STYLES *****/
+
+body {
+  background: #1d212b;
+  font-family: "Montserrat";
+  color: white;
+  max-width: 1200px;
+  font-size: 16px;
+  margin: auto;
+}
+
+/***** GRID *****/
+
+/***** HEADER *****/
+
+#header {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
+.header-divider {
+  border-top: 1px solid #000000;
+  width: 100%;
+}
+
+#nav-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 10px;
+}
+#nav-bar ul {
+  padding-inline-start: 0px;
+  list-style-type: none;
+  margin-block-start: 0.5em;
+}
+
+#nav-bar ul li {
+  display: inline-block;
+}
+
+#nav-bar ul li a {
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 1.3em;
+  color: white;
+}
+
+#nav-about {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/***** MAIN *****/
+
+#main {
+  background: url("../img-project/hero-photo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  margin-bottom: 30px;
+}
+
+#main .half-width {
+  color: white;
+  font-family: "source code pro";
+  font-size: 1.5em;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+
+#main span {
+  color: #fa0274;
+}
+
+#portfolio .full-width {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+main .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+#portfolio h2 {
+  color: #fa0274;
+  font-family: "source code pro";
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#portfolio .third-width {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+#jubilee-austen {
+  padding-top: 30px;
+}
+
+#rogue-pickings {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#unplugged {
+  padding-bottom: 50px;
+}
+
+#project-one img {
+  overflow: auto;
+}
+
+#about .full-width {
+  background: url("../img-project/about-photo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+#about h2 {
+  color: #fa0274;
+  font-family: "source code pro";
+  font-size: 30px;
+  text-align: center;
+}
+
+#about .half-width {
+  color: #20202c;
+  margin: 0px 0px 0px 40px;
+  padding: 0px 0px 40px 0px;
+}
+
+#about-bio p {
+  width: 80%;
+  margin: 0;
+  padding: 20px 0px 20px 0px;
+}
+/***** FOOTER *****/
+
+#contact h2 {
+  color: #fa0274;
+  font-family: "source code pro";
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#contact .third-width {
+  color: white;
+  font-size: 16px;
+  line-height: 5px;
+  text-align: center;
+}
+#contact h3 {
+  padding-bottom: 10px;
+}
+
+#contact ul {
+  list-style: none;
+  margin: 0px auto;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#social-media {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#contact ul img {
+  padding-right: 40px;
+}
+
+#copyright h4 {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: lighter;
+}
+
+/* ==========================================================================
+   Media Queries for Responsive Design.
+   ========================================================================== */
+
+/*********TABLET STYLES here***********/
+@media only screen and (min-width: 768px) {
+  width: 100%;
+}
+
+/*********DESKTOP STYLES here***********/
+@media only screen and (min-width: 1200px) {
+  width: 100%;
+}

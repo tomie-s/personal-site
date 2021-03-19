@@ -1,0 +1,509 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202101 will be lost/reset.
+# Last config file used to build this data file was /home2/tomisami/tmp/awstats/awstats.tomisalami.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2687                
+POS_VISITOR 11593               
+POS_DAY 14778               
+POS_DOMAIN 3382                
+POS_LOGIN 3814                
+POS_ROBOT 3969                
+POS_WORMS 4186                
+POS_EMAILSENDER 4317                
+POS_EMAILRECEIVER 4460                
+POS_SESSION 14939               
+POS_SIDER 15136               
+POS_FILETYPES 4595                
+POS_DOWNLOADS 4737                
+POS_OS 4785                
+POS_BROWSER 5013                
+POS_SCREENSIZE 6461                
+POS_UNKNOWNREFERER 6535                
+POS_UNKNOWNREFERERBROWSER 6929                
+POS_ORIGIN 7215                
+POS_SEREFERRALS 7351                
+POS_PAGEREFS 7495                
+POS_SEARCHWORDS 7643                
+POS_KEYWORDS 7795                
+POS_MISC 2350                
+POS_ERRORS 7854                
+POS_CLUSTER 3670                
+POS_SIDER_404 7981                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210201004700 3 383 12474011737494
+FirstTime 20210128212831
+LastTime 20210131225426
+LastUpdate 20210201223016 3 0 2 0 0
+TotalVisits 117                 
+TotalUnique 78                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 81                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 21 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 9 28794 46 46 29916
+1 1 1 1364 0 0 0
+2 14 53 6822680 15 16 12930
+3 7 16 2163422 1 1 462
+4 3 3 7667 1 1 462
+5 17 17 52648 46 46 31904
+6 6 6 24702 31 31 22086
+7 5 5 14542 7 7 4702
+8 3 12 2153041 0 0 0
+9 1 1 1364 0 0 0
+10 3 16 1098513 0 1 2780
+11 4 4 14001 18 18 12388
+12 5 5 17545 2 2 452
+13 3 3 4664 3 13 209427
+14 12 21 2174446 15 73 41675
+15 24 33 2197104 14 134 85612
+16 23 81 11897262 35 75 55140
+17 3 12 2160408 0 1 462
+18 0 0 0 0 0 0
+19 8 26 4326583 2 3 12658
+20 3 3 4378 0 0 0
+21 59 76 3577743 19 29 1339242
+22 3 29 1098513 0 1 2780
+23 7 7 17807 19 19 13086
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 16
+us 116 174 12072605
+cn 47 90 9312721
+ca 28 134 16221652
+in 8 17 2164705
+fr 3 3 14817
+gr 3 3 12351
+ua 3 3 12351
+hk 3 3 12351
+gb 2 2 6303
+bg 2 2 8234
+ru 2 2 5481
+my 2 2 9878
+nl 1 1 1364
+de 1 1 1650
+es 1 1 1364
+kr 1 1 1364
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+Apache\-HttpClient/ 11 209877 20210130213013 0
+no_user_agent 2 9878 20210129194532 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+png 172 39406495 0 0
+css 44 70973 0 0
+html 178 378015 0 0
+Unknown 45 3708 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+linux 50 19
+winnt 13 13
+win16 1 1
+linuxandroid 1 1
+macosx 133 27
+win8 2 2
+win8.1 1 1
+ios_iphone 22 4
+win10 154 93
+win2000 2 2
+win7 4 4
+Unknown 53 53
+macosx11 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 64
+chrome73.0.1927.88 1 1
+chrome76.0.2928.88 1 1
+chrome79.0.2148.88 1 1
+msie10.0 1 1
+chrome72.0.1568.88 1 1
+chrome71.0.3276.88 1 1
+chrome79.0 8 8
+chrome74.0.3811.88 1 1
+firefox28.0 3 3
+chrome41.0.2227.0 2 2
+chrome79.0.3865.88 1 1
+firefox58.0 3 3
+chrome78.0.3904.108 12 12
+chrome80.0.3987.149 7 7
+chrome76.0.1314.88 1 1
+chrome74.0.3179.88 1 1
+chrome70.0.3545.88 1 1
+mozilla 36 36
+chrome87.0.4280.141 13 4
+firefox79.0 1 1
+chrome76.0.3809.100 1 1
+chrome72.0.2150.88 1 1
+chrome19.0.1084.9 1 1
+chrome74.0.3729.131 1 1
+Unknown 17 17
+chrome73.0.2751.88 1 1
+firefox21.0 1 1
+chrome70.0.2241.88 1 1
+safari11.1.2 3 3
+chrome75.0.2176.88 1 1
+chrome88.0.4240.193 12 12
+chrome80.0.3987.119 1 1
+chrome78.0.2126.88 1 1
+chrome84.0.4147.105 1 1
+chrome78.0.2701.88 1 1
+chrome77.0.3865.120 1 1
+chrome73.0.3999.88 1 1
+chrome76.0.3809.71 1 1
+chrome70.0.3476.88 1 1
+chrome63.0.3239.132 6 6
+chrome78.0.1677.88 1 1
+chrome83.0.4103.97 1 1
+chrome63.0.3017.47 1 1
+safari13.1.2 10 1
+chrome68.0.3440.106 20 2
+chrome79.0.3945.88 1 1
+chrome74.0.3144.88 1 1
+chrome77.0.2706.88 1 1
+chrome72.0.3626.119 65 22
+chrome75.0.1494.88 1 1
+chrome85.0.4183.121 14 1
+firefox48.0 1 1
+chrome11.0.696.71 2 2
+chrome66.0.3359.181 2 2
+chrome78.0.3861.88 1 1
+firefox29.0 1 1
+chrome76.0.1176.88 1 1
+chrome56.0.2924.87 4 4
+chrome88.0.4324.96 109 21
+chrome60.0.3112.113 2 2
+chrome67.0.3396.79 11 2
+firefox84.0 14 5
+safari14.0.2 24 6
+chrome73.0.1540.88 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20210128212834
+ltx71_-_(http://ltx71.com/) 20210131162655
+colly_-_https://github.com/gocolly/colly/v2 20210131225426
+Go-http-client/1.1 20210131201402
+Cpanel-HTTP-Client/1.0 20210128212832
+surfaze.io/1.0 20210131002638
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+surfaze.io/1.0 20210131002638
+Go-http-client/1.1 20210131201402
+Cpanel-HTTP-Client/1.0 20210128212832
+colly_-_https://github.com/gocolly/colly/v2 20210131225426
+ltx71_-_(http://ltx71.com/) 20210131162655
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 221 221
+From1 1 1
+From2 0 0
+From3 0 0
+From4 1 217
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 10 1324970
+406 26 5876
+409 1 83
+404 446 269100
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 68
+/site/wp-includes/wlwmanifest.xml 16 -
+/milestone-project/img-project/github.png 14 http://tomisalami.com/
+/blog/wp-admin/setup-config.php 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/media/wp-includes/wlwmanifest.xml 6 -
+/milestone-portfolio-project/css/normalize.css 8 http://tomisalami.com/
+/wp-includes/js/jquery/jquery.js 1 -
+/misc/ajax.js 1 -
+/milestone-portfolio-project/img/recipe-thumbnail.png 8 http://tomisalami.com/
+/milestone-portfolio-project/css-project/normalize.css 2 http://tomisalami.com/
+/shop/wp-includes/wlwmanifest.xml 10 -
+/milestone-portfolio-project/img/rogue-pickings-thumbnail.png 8 http://tomisalami.com/
+/wordpress/ 1 -
+/wordpress/wp-includes/wlwmanifest.xml 15 -
+/2019/wp-includes/wlwmanifest.xml 10 -
+/milestone-portfolio-project/img-project/jubilee-thumbnail.png 2 http://tomisalami.com/
+/wp1/wp-includes/wlwmanifest.xml 13 -
+/milestone-portfolio-project/img/github.png 8 http://tomisalami.com/
+/images/editor/separator.gif 1 -
+/milestone-project/img-project/rogue-pickings-thumbnail.png 20 http://tomisalami.com/
+/2020/wp-includes/wlwmanifest.xml 4 -
+/milestone-project/css-project/main.css 16 http://tomisalami.com/
+/milestone-portfolio-project/img-project/github.png 2 http://tomisalami.com/
+/apple-touch-icon.png 1 -
+/robots.txt 1 -
+/milestone-project/img-project/linkedin.png 14 http://tomisalami.com/
+/milestone-project/css-project/normalize.css 16 http://tomisalami.com/
+/milestone-portfolio-project/img-project/linkedin.png 2 http://tomisalami.com/
+/wp-admin/install.php 6 -
+/plugins/system/debug/debug.xml 1 -
+/website/wp-includes/wlwmanifest.xml 13 -
+/wordpress/wp-admin/install.php 1 -
+/milestone-portfolio-project/img-project/recipe-thumbnail.png 2 http://tomisalami.com/
+/apple-touch-icon-120x120.png 1 -
+/wp/wp-admin/setup-config.php 1 -
+/vendor/phpunit/phpunit/build.xml 1 -
+/milestone-portfolio-project/css/main.css 5 http://tomisalami.com/
+/milestone-project/img-project/jubilee-thumbnail.png 20 http://tomisalami.com/
+/sito/wp-includes/wlwmanifest.xml 13 -
+/apple-touch-icon-precomposed.png 1 -
+/wp-includes/wlwmanifest.xml 16 -
+/news/wp-includes/wlwmanifest.xml 13 -
+/2018/wp-includes/wlwmanifest.xml 6 -
+/milestone-portfolio-project/img-project/rogue-pickings-thumbnail.png 2 http://tomisalami.com/
+/wordpress/wp-admin/setup-config.php 1 -
+/blog/wp-admin/install.php 1 -
+/milestone-portfolio-project/img/linkedin.png 8 http://tomisalami.com/
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/milestone-portfolio-project/css-project/main.css 2 http://tomisalami.com/
+/milestone-portfolio-project/img/jubilee-thumbnail.png 8 http://tomisalami.com/
+/news/wp-admin/setup-config.php 1 -
+/test/wp-includes/wlwmanifest.xml 13 -
+/admin/view/javascript/common.js 1 -
+/wp-admin/setup-config.php 2 -
+/wp/wp-admin/install.php 1 -
+/new/wp-admin/setup-config.php 1 -
+/admin/includes/general.js 1 -
+/js/header-rollup-554.js 1 -
+/wp2/wp-includes/wlwmanifest.xml 13 -
+/new/wp-admin/install.php 1 -
+/wp/wp-includes/wlwmanifest.xml 16 -
+/web/wp-includes/wlwmanifest.xml 13 -
+/milestone-project/img-project/recipe-thumbnail.png 20 http://tomisalami.com/
+/ads.txt 1 -
+/blog/wp-includes/wlwmanifest.xml 16 -
+/milestone-portfolio-project/css/main-milestone.css 3 http://tomisalami.com/
+/news/wp-admin/install.php 1 -
+/cms/wp-includes/wlwmanifest.xml 16 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 81
+192.254.184.33 33 33 2664 20210128212834
+174.92.107.239 26 123 14062608 20210131081059
+124.71.180.89 25 25 35857 20210131224621
+115.118.128.202 7 16 2163300 20210130162228
+165.227.18.225 6 6 24702 20210131003938
+34.233.170.90 5 5 7678 20210131201402
+111.7.100.24 4 11 1235695 20210131024249
+128.90.21.219 3 3 4092 20210131051301
+178.128.51.50 3 3 12351 20210131002930
+95.216.7.190 3 3 12351 20210131162748
+34.70.171.190 3 3 4092 20210131155829
+3.22.70.135 3 3 261 20210128212834
+54.163.26.37 3 3 12351 20210130211031
+129.146.59.111 3 3 12351 20210131065139
+129.146.102.15 3 3 12351 20210131024115
+34.209.232.166 3 3 261 20210128212833
+23.96.22.180 3 3 12351 20210131050055
+103.62.49.127 3 3 12351 20210131053826
+104.154.42.4 3 3 12351 20210131112503
+34.70.43.244 3 3 12351 20210131065015
+129.146.79.103 3 3 12351 20210131162357
+66.133.109.36 3 3 261 20210128212833
+111.7.100.25 3 11 2157393 20210131024245
+18.196.96.172 2 2 174 20210128212833
+111.7.100.20 2 7 967074 20210131024327
+64.233.172.172 1 1 1405 20210130153642
+195.154.61.206 2 2 9878 20210130122958
+36.99.136.134 1 1 1364 20210131025216
+54.201.96.155 1 1 1364 20210131103754
+36.99.136.141 1 3 195477 20210130210518
+205.169.39.42 1 1 1806 20210128213058
+34.72.146.195 1 1 1364 20210131162655
+13.58.141.241 1 1 1364 20210131051802
+3.239.239.38 2 2 8234 20210131054354
+64.233.172.72 1 1 1405 20210130153641
+35.161.223.125 1 1 1364 20210130191251
+91.134.25.165 2 2 8234 20210131151203
+95.211.209.158 1 1 1364 20210131052855
+207.244.230.205 1 1 1364 20210131225426
+167.114.226.133 1 1 1364 20210130171157
+70.51.127.146 1 10 2157680 20210131153845
+36.99.136.140 1 2 162531 20210130210505
+104.196.241.75 1 1 0 20210130031702
+44.242.148.53 1 1 1364 20210131032826
+44.230.211.168 1 10 2157680 20210131032859
+185.220.102.243 1 1 1364 20210131164903
+34.222.202.168 1 10 2157680 20210130191258
+165.117.232.80 1 1 1650 20210130131833
+36.99.136.135 1 1 1364 20210131025012
+52.28.236.88 1 1 87 20210128212833
+111.7.100.21 2 3 163895 20210130234351
+74.194.186.120 1 10 2157680 20210130192734
+34.215.71.228 1 1 1650 20210129192750
+161.69.99.11 1 1 1364 20210131053541
+202.184.114.209 2 2 9878 20210130071540
+36.99.136.142 0 2 188293 
+36.99.136.143 0 3 847427 
+111.7.100.27 2 9 1365797 20210130210246
+35.185.197.215 1 1 0 20210130031703
+79.151.42.96 1 1 1364 20210131123950
+3.139.107.114 1 14 1095785 20210130024136
+216.19.220.0 1 10 2157680 20210131144004
+211.176.125.70 1 1 1364 20210131042419
+62.4.14.198 1 1 4939 20210130122410
+69.25.58.60 2 11 2163295 20210130173423
+136.243.65.114 1 1 1650 20210130080646
+111.7.100.26 2 7 1798728 20210131023845
+195.201.41.238 1 1 4117 20210130191129
+54.221.27.173 1 1 1364 20210131052523
+76.164.198.173 2 2 9878 20210130050026
+111.7.100.22 1 1 1364 20210130210623
+51.91.125.152 1 1 4939 20210130044220
+109.74.198.86 1 1 1364 20210131002638
+111.7.100.23 0 2 187734 
+18.237.207.67 1 1 1364 20210131032858
+36.99.136.139 2 2 2728 20210130210335
+40.117.185.219 2 2 2728 20210131123159
+64.233.172.70 1 1 1405 20210130153642
+1.186.48.58 1 1 1405 20210130154809
+13.84.43.13 2 2 8234 20210131140146
+64.233.172.168 1 1 1405 20210130153641
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20210128 47 73 1101299 8
+20210129 5 18 1081212 4
+20210130 88 203 23145845 51
+20210131 83 145 14530835 54
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 2
+15mn-30mn 1
+30s-2mn 2
+1h+ 1
+0s-30s 110
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/ 178 378015 111 111
+/.well-known/acme-challenge/kBMa8ylFKeEqHdlTeoi9fjJR4bSG_j_loXhOsrHiEhg 4 348 0 0
+/.well-known/acme-challenge/29J6u8zKxzTgpz83onjx_yNsn62IpxIB286QqL8Pijs 4 348 0 3
+/.well-known/acme-challenge/E0c_OWRkr-ava-Xtu8rJByUZZoE6SXsDmSPjLV3P7tk 4 348 0 0
+/.well-known/acme-challenge/a3KIWrvQN7mYF4NI-9aJatVGbnD7NR4mSFabDze5VZI 4 348 0 0
+/.well-known/acme-challenge/eEvm6BXTFGPE37F4nOYFU9G8st3LVpnf9oQhAhXrksY 4 348 0 1
+/.well-known/acme-challenge/GnNAP3J49uYiGaYjKDPQdKvIuZ84mwOQPChKnAHgD7Y 4 348 0 0
+/.well-known/acme-challenge/gZfm2lnNVKb1seYQ_MiSoWYRdKg6hsoCJrjA6qe3vjI 4 348 0 0
+/.well-known/acme-challenge/wwF-nk2tCL_vs4-HbIKmgsg8ngoY0HrO_7R7YeeXsfQ 4 348 4 0
+/.well-known/acme-challenge/8fEgEoq0SMwx7hXeU9RZcAM_PmeaKu-Hd2dQBP6KXjU 4 348 1 2
+/.well-known/acme-challenge/I-7Q1QFDC0MH3MYBFI1BP48AC42BGA47 1 64 0 0
+/.well-known/acme-challenge/76LDKV0F2KHS3HW0ACTSBRX0J8DUOLH- 1 64 0 0
+/.well-known/acme-challenge/ISTKP98TROV4V01L_6WVFCXPY_MGA9_N 1 64 0 0
+/.well-known/acme-challenge/0IRARWF96CEBSXHRN8E3EB2WJVKLIURT 1 64 1 0
+/.well-known/acme-challenge/0G4GRVPQ3SG41MZAPE6QMP-T296X8MG3 1 64 0 0
+/.well-known/acme-challenge/9Y63A46C8G5CT8259UOYQ0ZJEDDEB81_ 1 64 0 0
+/.well-known/acme-challenge/IN_ZBDW857GG6B-YPX95E8CQ4VTE6E3C 1 64 0 0
+/.well-known/acme-challenge/TJ4VRE-26B98WBSTV__-G9SUZTC-G4VK 1 64 0 0
+/.well-known/acme-challenge/L388EDAHI889L6EZHBOCUWRTGM9D348W 1 64 0 0
+END_SIDER

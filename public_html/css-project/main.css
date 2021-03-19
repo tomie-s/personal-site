@@ -1,0 +1,154 @@
+/***** BASE STYLES *****/
+
+body {
+  background: #1d212b;
+  font-family: "Montserrat";
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** HEADER *****/
+header .full-width {
+  padding-bottom: 5px;
+}
+
+header h1 {
+  color: white;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+nav {
+  float: right;
+  padding-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding-left: 30px;
+}
+
+/***** MAIN *****/
+
+#main {
+  background: url("../img-project/hero-background.png");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-bottom: 30px;
+}
+
+#main .half-width {
+  color: white;
+  font-family: "source code pro";
+  font-size: 38px;
+  padding-top: 180px;
+}
+
+#main span {
+  color: #fa0274;
+}
+
+#portfolio .full-width {
+  padding-bottom: 50px;
+}
+
+#portfolio h2 {
+  color: #fa0274;
+  font-family: "source code pro";
+  font-size: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#portfolio .third-width {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+#about .full-width {
+  background: url("../img-project/about-me.png");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+#about h2 {
+  color: #fa0274;
+  font-family: "source code pro";
+  font-size: 30px;
+  text-align: center;
+}
+
+#about .half-width {
+  color: #20202c;
+  font-size: 20px;
+  margin: 30px 0px 0px 60px;
+}
+
+/***** FOOTER *****/
+
+#contact h2 {
+  color: #fa0274;
+  font-family: "source code pro";
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#contact .third-width {
+  color: white;
+  font-size: 16px;
+  line-height: 5px;
+  text-align: center;
+}
+#contact h3 {
+  padding-bottom: 10px;
+}
+
+#contact ul {
+  list-style: none;
+  margin: 0px auto;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  padding-right: 40px;
+}
+
+#copyright h4 {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: lighter;
+}

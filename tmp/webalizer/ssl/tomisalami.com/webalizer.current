@@ -1,0 +1,321 @@
+# Webalizer V2.23-08 Incremental Data - 03/16/2021 04:16:10
+2021 3 16 4 16 10
+64 38 45 11 4 18 2689415 45 45 0
+2 1 11 1 16
+2 1 4152 2 2 2
+1 1 1364 1 1 1
+0 0 0 0 0 0
+7 4 10499 3 3 3
+11 1 4144 10 10 10
+3 2 1826 3 3 3
+0 0 0 0 0 0
+11 10 2157906 1 1 1
+4 2 2815 4 3 3
+1 1 0 1 1 1
+2 2 5481 2 2 2
+7 5 6942 7 6 6
+3 2 162801 3 3 3
+3 1 4378 3 2 2
+7 6 327037 7 6 6
+2 0 70 2 2 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+11 4 169447 11
+10 2 10074 6
+0 0 0 0
+2 1 158684 2
+2 0 70 2
+1 0 226 0
+1 0 52 0
+3 2 3190 3
+3 1 2145 2
+0 0 0 0
+1 0 35 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 1 4117 1
+8 8 9600 7
+14 13 2320778 3
+2 2 1364 2
+2 2 1364 2
+1 1 4117 1
+0 0 0 0
+2 1 4152 2
+0 0 0 0
+0 0 0 0
+0
+0
+0
+38
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+9
+0
+0
+5
+0
+11
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/css-project/main.css
+0 1 8319045105058736492 686 0 0
+/img-project/github.png
+0 1 0 1343 0 0
+/favicon.ico
+0 3 0 8340 0 0
+/img-project/recipe-thumbnail.png
+0 1 0 193427 0 0
+/css-project/normalize.css
+0 1 0 3015 0 0
+/img-project/about-me.png
+0 1 0 765316 0 0
+/img-project/jubilee-thumbnail.png
+0 1 0 161167 0 0
+/img-project/linkedin.png
+0 1 0 1245 0 0
+/img-project/hero-background.png
+0 1 0 843069 0 0
+/
+0 26 0 518460 44 4
+/img-project/rogue-pickings-thumbnail.png
+0 1 0 187048 0 0
+# End Of Table - urls
+# -sites- (monthly)
+22.162.77.34.bc.googleusercontent.com
+0 1 0 35 1 1615286635
+/
+50-252-9-153-static.hfc.comcastbusiness.net
+0 1 1 1364 1 1615309528
+/
+24.162.77.34.bc.googleusercontent.com
+0 1 1 4117 1 1615845459
+/
+92.118.160.57.netsystemsresearch.com
+0 1 0 35 1 1615693713
+/
+139.155.16.233
+0 1 0 52 0 0
+-
+25.162.77.34.bc.googleusercontent.com
+0 2 0 70 2 1615868170
+/
+16.22.68.34.bc.googleusercontent.com
+0 1 1 1364 1 1615535512
+/
+survey.internet-census.org
+0 1 1 1364 1 1615768215
+/
+214-247-15-51.instances.scw.cloud
+0 1 0 35 1 1614573342
+/
+ec2-18-236-91-108.us-west-2.compute.amazonaws.com
+0 1 1 1364 1 1614871005
+/
+ec2-18-197-24-40.eu-central-1.compute.amazonaws.com
+0 1 1 0 1 1615042825
+/
+ec2-54-245-128-118.us-west-2.compute.amazonaws.com
+0 1 1 1364 1 1615043544
+/
+ec2-44-228-129-40.us-west-2.compute.amazonaws.com
+0 1 1 2780 0 0
+-
+165.227.69.172
+0 1 0 226 1 1614903956
+/
+151.65.226.35.bc.googleusercontent.com
+0 1 1 1364 1 1615535106
+/
+165.227.114.151
+0 1 0 226 1 1614905468
+/
+ec2-34-220-174-0.us-west-2.compute.amazonaws.com
+0 1 1 1364 1 1615486915
+/
+92.118.160.37.netsystemsresearch.com
+0 1 1 4117 1 1615748658
+/
+64.225.1.81
+0 1 0 226 1 1614903692
+/
+17.162.77.34.bc.googleusercontent.com
+0 1 0 35 1 1615854962
+/
+95-217-207-28.serverhub.ru
+0 1 1 0 1 1615391281
+/
+92.118.160.13.netsystemsresearch.com
+0 2 1 158684 2 1615769644
+/
+164.90.129.204
+0 1 0 226 1 1614906605
+/
+ec2-35-164-254-113.us-west-2.compute.amazonaws.com
+0 1 1 1364 1 1614698395
+/
+ec2-44-234-57-126.us-west-2.compute.amazonaws.com
+0 1 1 1364 1 1615826644
+/
+165.227.221.227
+0 1 0 226 1 1614905570
+/
+15.162.77.34.bc.googleusercontent.com
+0 2 1 158763 2 1615825654
+/
+115.21.78.155
+0 1 0 462 1 1615014456
+-
+3.162.77.34.bc.googleusercontent.com
+0 1 1 158649 1 1615607550
+/
+31.162.77.34.bc.googleusercontent.com
+0 1 0 35 1 1615509099
+/
+159.203.77.209
+0 1 0 226 1 1614908755
+/
+pool-72-79-53-50.nwrknj.east.verizon.net
+0 2 1 2110 1 1614931938
+/
+20.162.77.34.bc.googleusercontent.com
+0 1 1 4117 1 1615471511
+/
+143-251-15-51.instances.scw.cloud
+0 1 1 4117 1 1614557358
+/
+ec2-34-222-197-33.us-west-2.compute.amazonaws.com
+0 1 1 2780 0 0
+-
+planetlab24.gino-research.net.in.tum.de
+0 2 2 0 2 1615574508
+/
+ec2-54-186-90-243.us-west-2.compute.amazonaws.com
+0 1 1 1364 1 1615562045
+/
+159.89.46.3
+0 1 0 226 1 1614909236
+/
+ninja.census.shodan.io
+0 5 2 9135 1 1614821573
+/
+92.118.160.1.netsystemsresearch.com
+0 1 1 4117 1 1615594129
+/
+161.35.142.145
+0 1 0 226 1 1614904166
+/
+185.117.225.84
+0 11 10 2157906 1 1615219419
+/
+ip-54-36-148-67.a.ahrefs.com
+0 1 0 226 0 0
+-
+159.89.36.238
+0 1 0 226 1 1614909107
+/
+ec2-18-236-194-180.us-west-2.compute.amazonaws.com
+0 1 1 1364 1 1615303451
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+25.162.77.34.bc.googleusercontent.com
+0 1 0 35 1 1615868170
+/
+17.162.77.34.bc.googleusercontent.com
+0 1 0 35 1 1615854962
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://autodiscover.tomisalami.com
+0 1
+https://tomisalami.com/css-project/main.css
+0 2
+https://tomisalami.com/
+0 7
+- (Direct Request)
+0 54
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (compatible; TestBot/0.1; +In_the_test_phase,_if_the_spider_brings_you_trouble,_please_add_our_IP_to_the_blacklis
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+0 2
+httpx - Open-source project (github.com/projectdiscovery/httpx)
+0 1
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 9
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+0 10
+panscient.com
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:80.0) Gecko/20100101 Firefox/80.0
+0 1
+Go-http-client/1.1
+0 2
+Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+0 6
+python-requests/2.25.1
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36
+0 2
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 2
+Expanse indexes the network perimeters of our customers. If you have any questions or concerns, please reach out to: scaninfo
+0 10
+NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com
+0 5
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
