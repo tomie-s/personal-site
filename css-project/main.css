@@ -9,21 +9,20 @@ body {
   margin: auto;
 }
 
-/***** GRID *****/
-
 /***** HEADER *****/
 
 #header {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 0px 10px 0px 10px;
 }
 
 #name {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.8em;
+  font-size: 0.65em;
   margin-top: 10px;
 }
 
@@ -36,6 +35,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  font-size: 0.8em;
   margin: 10px;
 }
 #nav-bar ul {
@@ -67,16 +67,16 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 400px;
-  margin-bottom: 30px;
+  min-height: 300px;
 }
 
 #main .half-width {
   color: white;
   font-family: "source code pro";
-  font-size: 1.5em;
+  font-size: 1.2em;
   padding-top: 60px;
   padding-left: 30px;
+  width: 60%;
 }
 
 #main span {
@@ -108,7 +108,7 @@ main .content-wrapper {
 
 #portfolio .third-width {
   color: white;
-  font-size: 16px;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -136,7 +136,6 @@ main .content-wrapper {
   background-position: center;
   min-height: 400px;
   padding-top: 20px;
-  margin-top: 20px;
 }
 
 #about h2 {
@@ -144,6 +143,8 @@ main .content-wrapper {
   font-family: "source code pro";
   font-size: 30px;
   text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 #about .half-width {
@@ -159,7 +160,7 @@ main .content-wrapper {
 }
 /***** FOOTER *****/
 
-#contact h2 {
+footer h2 {
   color: #fa0274;
   font-family: "source code pro";
   font-size: 30px;
@@ -209,7 +210,91 @@ main .content-wrapper {
 
 /*********TABLET STYLES here***********/
 @media only screen and (min-width: 768px) {
-  width: 100%;
+  #header {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .header-divider {
+    border-top: 1px solid #000000;
+    width: 0;
+  }
+
+  #name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #nav-bar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  #nav-bar ul li {
+    display: inline-block;
+    font-size: 0.8em;
+  }
+
+  /***** MAIN *****/
+
+  #main .half-width {
+    font-size: 1.5em;
+    padding-top: 60px;
+    padding-left: 30px;
+    width: 60%;
+  }
+
+  #portfolio {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+
+  #portfolio .full-width {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #portfolio h2 {
+    font-size: 2em;
+    padding-bottom: 10px;
+  }
+
+  #portfolio .third-width {
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 70px;
+  }
+
+  #jubilee-austen {
+    padding-top: 0;
+  }
+
+  #rogue-pickings {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #unplugged {
+    padding-bottom: 0;
+  }
+
+  /***** FOOTER *****/
 }
 
 /*********DESKTOP STYLES here***********/
