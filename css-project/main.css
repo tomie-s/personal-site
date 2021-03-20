@@ -138,7 +138,7 @@ main .page-wrap {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .about h2 {
@@ -316,13 +316,13 @@ footer ul img {
   #social-media ul {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
     list-style: none;
     padding-inline-start: 0;
   }
 
-  #social-media ul li {
-    padding-left: 10px;
+  footer ul li {
+    padding-left: 35px;
   }
 }
 
