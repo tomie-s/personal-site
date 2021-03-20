@@ -9,20 +9,24 @@ body {
   margin: auto;
 }
 
+h1 {
+  color: white;
+  font-family: "source code pro";
+}
+
 /***** HEADER *****/
 
-#header {
+header .page-wrap {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  padding: 0px 10px 0px 10px;
 }
 
-#name {
+.name {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.65em;
+  font-size: 0.6em;
   margin-top: 10px;
 }
 
@@ -31,27 +35,28 @@ body {
   width: 100%;
 }
 
-#nav-bar {
+.nav-bar {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
-  font-size: 0.8em;
+  flex-flow: row wrap;
+  font-size: 0.85em;
   margin: 10px;
+  width: 100%;
 }
-#nav-bar ul {
+.nav-bar ul {
   padding-inline-start: 0px;
   list-style-type: none;
   margin-block-start: 0.5em;
 }
 
-#nav-bar ul li {
+.nav-bar ul li {
   display: inline-block;
 }
 
-#nav-bar ul li a {
+.nav-bar ul li a {
   text-transform: lowercase;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: white;
 }
 
@@ -61,44 +66,39 @@ body {
 }
 
 /***** MAIN *****/
+main .page-wrap {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
 
-#main {
-  background: url("../img-project/hero-photo.png");
+.hero {
+  background: url("../img-project/hero-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 300px;
+  width: 100%;
 }
 
-#main .half-width {
-  color: white;
-  font-family: "source code pro";
-  font-size: 1.2em;
-  padding-top: 60px;
-  padding-left: 30px;
-  width: 60%;
+.hero h1 {
+  font-size: 2em;
+  width: 80%;
 }
 
-#main span {
+.hero span {
   color: #fa0274;
 }
 
-#portfolio .full-width {
+.portfolio-wrap {
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
   width: 100%;
 }
 
-main .content-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  width: 100%;
-  padding-bottom: 50px;
-}
-
-#portfolio h2 {
+.portfolio h2 {
   color: #fa0274;
   font-family: "source code pro";
   font-size: 30px;
@@ -106,9 +106,10 @@ main .content-wrapper {
   text-align: center;
 }
 
-#portfolio .third-width {
-  color: white;
-  font-size: 1em;
+.portfolio .third-width {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
   text-align: center;
 }
 
@@ -129,36 +130,37 @@ main .content-wrapper {
   overflow: auto;
 }
 
-#about .full-width {
+.about .page-wrap {
   background: url("../img-project/about-photo.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 400px;
-  padding-top: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 
-#about h2 {
+.about h2 {
   color: #fa0274;
   font-family: "source code pro";
   font-size: 30px;
   text-align: center;
-  margin-block-start: 0;
   margin-block-end: 0;
 }
 
-#about .half-width {
+.about-bio {
   color: #20202c;
-  margin: 0px 0px 0px 40px;
-  padding: 0px 0px 40px 0px;
+  width: 80%;
+  padding-left: 50px;
 }
 
-#about-bio p {
-  width: 80%;
-  margin: 0;
-  padding: 20px 0px 20px 0px;
-}
 /***** FOOTER *****/
+
+footer .page-wrap {
+  margin: 20px;
+  text-align: center;
+}
 
 footer h2 {
   color: #fa0274;
@@ -168,22 +170,22 @@ footer h2 {
   padding-bottom: 30px;
 }
 
-#contact .third-width {
+.contact .third-width {
   color: white;
   font-size: 16px;
   line-height: 5px;
   text-align: center;
 }
-#contact h3 {
+.contact h3 {
   padding-bottom: 10px;
 }
 
-#contact ul {
+.contact ul {
   list-style: none;
   margin: 0px auto;
 }
 
-#contact ul li {
+.contact ul li {
   display: inline-block;
 }
 
@@ -192,7 +194,7 @@ footer h2 {
   padding-bottom: 40px;
 }
 
-#contact ul img {
+.contact ul img {
   padding-right: 40px;
 }
 
@@ -210,28 +212,30 @@ footer h2 {
 
 /*********TABLET STYLES here***********/
 @media only screen and (min-width: 768px) {
-  #header {
+  header .page-wrap {
     display: flex;
-    justify-content: space-between;
     flex-flow: row nowrap;
-    margin: 0px 20px 0px 20px;
   }
 
-  .header-divider {
-    border-top: 1px solid #000000;
-    width: 0;
-  }
-
-  #name {
+  header .name {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
   }
 
-  #nav-bar {
+  .header-divider {
+    border-top: none;
+    width: 5%;
+  }
+
+  header .nav-bar {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav-bar {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -239,7 +243,7 @@ footer h2 {
     margin: 10px;
   }
 
-  #nav-bar ul li {
+  .nav-bar ul li {
     display: inline-block;
     font-size: 0.8em;
   }
@@ -297,5 +301,7 @@ footer h2 {
 
 /*********DESKTOP STYLES here***********/
 @media only screen and (min-width: 1200px) {
-  width: 100%;
+  body {
+    width: 100%;
+  }
 }
