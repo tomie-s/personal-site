@@ -261,7 +261,6 @@ footer h2 {
   }
 
   #portfolio .full-width {
-    width: 90%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -274,11 +273,10 @@ footer h2 {
   }
 
   #portfolio .third-width {
-    width: 50%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     justify-content: center;
-    padding: 70px;
+    padding: 50px;
   }
 
   #jubilee-austen {
