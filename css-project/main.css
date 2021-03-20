@@ -168,9 +168,8 @@ footer .page-wrap {
 footer h2 {
   color: #fa0274;
   font-family: "source code pro";
-  font-size: 30px;
+  font-size: 1.8em;
   text-align: center;
-  padding-bottom: 30px;
 }
 
 .contact .third-width {
@@ -215,7 +214,7 @@ footer ul img {
   text-decoration: none;
 }
 
-#copyright h4 {
+.copyright h4 {
   color: white;
   font-size: 14px;
   text-align: center;
@@ -304,8 +303,12 @@ footer ul img {
   /***** FOOTER *****/
   footer .contact-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-flow: row nowrap;
+  }
+
+  footer h2 {
+    font-size: 2.3em;
   }
 
   #social-media {
@@ -324,11 +327,92 @@ footer ul img {
   footer ul li {
     padding-left: 35px;
   }
+
+  .copyright h4 {
+    font-size: 1.2em;
+  }
 }
 
 /*********DESKTOP STYLES here***********/
 @media only screen and (min-width: 1200px) {
   body {
     width: 100%;
+  }
+
+  header .name {
+    font-size: 1.3em;
+  }
+
+  .nav-bar ul li {
+    font-size: 1.5em;
+  }
+
+  #nav-about {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .hero {
+    min-height: 500px;
+  }
+  .hero .page-wrap {
+    width: 60%;
+  }
+
+  .hero h1 {
+    font-size: 3.2em;
+  }
+
+  /***** MAIN *****/
+
+  .portfolio-wrap {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    width: 100%;
+  }
+
+  .portfolio img {
+    width: 350px;
+  }
+
+  #jubilee-austen {
+    padding-top: 0;
+  }
+
+  #rogue-pickings {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #unplugged {
+    padding-bottom: 0px;
+  }
+
+  .about .page-wrap {
+    min-height: 500px;
+  }
+
+  .about-bio {
+    width: 60%;
+    font-size: 1.6em;
+  }
+
+  /***** FOOTER *****/
+
+  .contact-wrap h3 {
+    font-size: 1.8em;
+  }
+
+  .contact-wrap p {
+    font-size: 1.4em;
+  }
+
+  .contact-wrap a {
+    font-size: 1.4em;
+  }
+
+  .copyright h4 {
+    font-size: 1.3em;
   }
 }
