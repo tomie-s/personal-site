@@ -101,8 +101,7 @@ main .page-wrap {
 .portfolio h2 {
   color: #fa0274;
   font-family: "source code pro";
-  font-size: 30px;
-  padding-bottom: 20px;
+  font-size: 2em;
   text-align: center;
 }
 
@@ -137,8 +136,9 @@ main .page-wrap {
   background-position: center;
   min-height: 400px;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .about h2 {
@@ -149,10 +149,13 @@ main .page-wrap {
   margin-block-end: 0;
 }
 
+.about-header {
+  width: 60%;
+}
+
 .about-bio {
   color: #20202c;
   width: 80%;
-  padding-left: 50px;
 }
 
 /***** FOOTER *****/
@@ -198,6 +201,20 @@ footer h2 {
   padding-right: 40px;
 }
 
+#contact-options a {
+  color: #fa0274;
+  text-decoration: none;
+}
+
+#link-up h4 {
+  font-weight: normal;
+}
+
+#link-up a {
+  color: #fa0274;
+  text-decoration: none;
+}
+
 #copyright h4 {
   color: white;
   font-size: 14px;
@@ -205,7 +222,6 @@ footer h2 {
   padding-top: 50px;
   font-weight: lighter;
 }
-
 /* ==========================================================================
    Media Queries for Responsive Design.
    ========================================================================== */
@@ -221,18 +237,20 @@ footer h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 0.7em;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .header-divider {
     border-top: none;
-    width: 5%;
+    width: 1%;
   }
 
   header .nav-bar {
     display: flex;
     justify-content: flex-end;
+    width: 35%;
   }
 
   .nav-bar {
@@ -240,63 +258,72 @@ footer h2 {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    margin: 10px;
   }
 
   .nav-bar ul li {
     display: inline-block;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   /***** MAIN *****/
-
-  #main .half-width {
-    font-size: 1.5em;
-    padding-top: 60px;
-    padding-left: 30px;
-    width: 60%;
-  }
-
-  #portfolio {
+  .hero .page-wrap {
     display: flex;
-    justify-content: center;
-    flex-flow: column nowrap;
-    width: 100%;
+    width: 70%;
   }
 
-  #portfolio .full-width {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+  .hero h1 {
+    font-size: 2.3em;
   }
 
-  #portfolio h2 {
-    font-size: 2em;
-    padding-bottom: 10px;
+  .portfolio h2 {
+    font-size: 2.3em;
   }
 
-  #portfolio .third-width {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    padding: 50px;
+  .portfolio img {
+    width: 450px;
   }
 
-  #jubilee-austen {
-    padding-top: 0;
+  .portfolio h3 {
+    font-size: 1.2em;
+    margin-block-end: 0;
   }
 
-  #rogue-pickings {
-    padding-top: 0;
-    padding-bottom: 0;
+  .portfolio p {
+    font-size: 1em;
   }
 
-  #unplugged {
-    padding-bottom: 0;
+  .about-header h2 {
+    font-size: 2.3em;
+  }
+
+  .about-bio {
+    width: 70%;
+    font-size: 1.3em;
   }
 
   /***** FOOTER *****/
+  footer .contact-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+  }
+
+  #social-media {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #social-media ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    list-style: none;
+    padding-inline-start: 0;
+  }
+
+  #social-media ul li {
+    padding-left: 10px;
+  }
 }
 
 /*********DESKTOP STYLES here***********/
