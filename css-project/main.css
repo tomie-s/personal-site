@@ -230,6 +230,7 @@ footer h2 {
 @media only screen and (min-width: 768px) {
   header .page-wrap {
     display: flex;
+    justify-content: space-around;
     flex-flow: row nowrap;
   }
 
@@ -237,8 +238,7 @@ footer h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.7em;
-    margin-top: 20px;
+    font-size: 0.85em;
     margin-bottom: 20px;
   }
 
@@ -250,19 +250,19 @@ footer h2 {
   header .nav-bar {
     display: flex;
     justify-content: flex-end;
-    width: 35%;
-  }
-
-  .nav-bar {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     align-items: center;
+    width: 30%;
+    margin: 0;
   }
 
   .nav-bar ul li {
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 1.1em;
+  }
+
+  #nav-about {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   /***** MAIN *****/
